@@ -1,0 +1,41 @@
+.dynamic-form p {
+    color: white;
+}
+
+.trigger {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #388bc2;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.isSelected {
+    background-color: #388bc2;
+}
+
+.dynamic-form input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #418f61;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+ 
+.dynamic-form input[type = "submit"]:hover {
+    background-color: #418f61;
+}
